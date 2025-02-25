@@ -5,8 +5,8 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.example</groupId>
-    <artifactId>myproject</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <artifactId>product</artifactId>
+    <version>1.0</version>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -21,6 +21,13 @@
         </dependency>
     </dependencies>
 
-    <!-- Additional lines to be added here... -->
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
 
 </project>
