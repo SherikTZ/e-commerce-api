@@ -9,5 +9,5 @@ resource "aws_instance" "jenkins-instance" {
 
     vpc_security_group_ids = [aws_security_group.app_access_sg.id]
 
-    user_data = file("scripts/installJenkins.sh")
+    user_data = file("scripts/jenkins/installJenkins.sh")
 }
