@@ -44,3 +44,8 @@ node_modules
 db-data
 .idea
 *.drawio
+.terraform
+.terraform.lock.hcl
+terraform.tfstate
+terraform.tfstate.backup
+ec2_key.pem
